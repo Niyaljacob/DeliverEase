@@ -1,3 +1,4 @@
+import 'package:deliver_ease/views/home/widgets/appbar.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -6,7 +7,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      appBar: CustomAppBar(),
     );
   }
 }
