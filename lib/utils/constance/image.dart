@@ -2,7 +2,8 @@
 
 const notification = "assets/notification.png";
 const tag = "assets/Tag.png";
-
+const discount = "assets/Figma_Resources_2-removebg-preview 1.png";
+const trending = "assets/TLD6iCOlyb0.png";
 // to do today images and text
 List<String> images = [
     'assets/first.png',
