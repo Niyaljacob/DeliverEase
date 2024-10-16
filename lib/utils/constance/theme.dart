@@ -7,7 +7,7 @@ class Themes {
         color: whiteColor, surfaceTintColor: whiteColor),
     scaffoldBackgroundColor: whiteColor,
     elevatedButtonTheme: const ElevatedButtonThemeData(
-        style: ButtonStyle(backgroundColor: WidgetStatePropertyAll(primary))),
+        style: ButtonStyle(backgroundColor: WidgetStatePropertyAll(locationIcon))),
   );
 
   static ThemeData darkModeTheme = ThemeData.dark().copyWith(
@@ -15,5 +15,5 @@ class Themes {
       scaffoldBackgroundColor:  Colors.black,
       elevatedButtonTheme: const ElevatedButtonThemeData(
           style: ButtonStyle(
-              backgroundColor: WidgetStatePropertyAll(primary))));
+              backgroundColor: WidgetStatePropertyAll(locationIcon))));
 }

@@ -64,3 +64,16 @@ class Heading3 extends StatelessWidget {
   }
 }
 
+class Heading4 extends StatelessWidget {
+  const Heading4({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const Padding(
+      padding: EdgeInsets.only(right: 235),
+      child: Text("Crazy deals",style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),),
+    );
+  }
+}
