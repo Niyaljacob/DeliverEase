@@ -1,4 +1,6 @@
 import 'package:deliver_ease/utils/constance/image.dart';
+import 'package:deliver_ease/views/notification/notification.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:deliver_ease/utils/constance/app_color.dart';
 
@@ -75,10 +77,17 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                       ),
                     ),
                     const SizedBox(width: 10),
-                    Image.asset(
-                      notification,
-                      width: 30,
-                      height: 30,
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(context, CupertinoPageRoute(builder: (_){
+                          return const NotificationScreen();
+                        }));
+                      },
+                      child: Image.asset(
+                        notification,
+                        width: 30,
+                        height: 30,
+                      ),
                     ),
                     const SizedBox(width: 10),
                     Image.asset(

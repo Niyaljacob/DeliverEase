@@ -9,7 +9,7 @@ class BottomNavFirstPage extends StatelessWidget {
 
   final List<Widget>pages=[
     const HomeScreen(),
-    const NotificationScreen(),
+     NotificationScreen(),
   ];
 
   @override
