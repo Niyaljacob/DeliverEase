@@ -8,7 +8,7 @@ const crazyDeals ="assets/vegPhoto.png";
 const referarrow= "assets/rightarrow.png";
 const referGiftBox = "assets/giftbox.png";
 const backArrow ='assets/backButton.png';
-
+const splash = 'assets/splash1.png';
 // to do today images and text
 List<String> images = [
     'assets/first.png',
