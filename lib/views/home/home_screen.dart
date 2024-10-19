@@ -22,15 +22,15 @@ class HomeScreen extends StatelessWidget {
        
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(20.0),
+            const Padding(
+              padding: EdgeInsets.all(20.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                    const Heading1(),
+                    Heading1(),
                     kHight20,
                     GridViewToDoToday(),
-                    const MoreTextWidget(),
+                    MoreTextWidget(),
                     kHight10,
                 ],
               ),
