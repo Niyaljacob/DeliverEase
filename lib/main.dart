@@ -1,7 +1,7 @@
 import 'package:deliver_ease/bloc/notification_bloc/notification_bloc.dart';
 import 'package:deliver_ease/service/notification/notification_repo.dart';
 import 'package:deliver_ease/utils/constance/theme.dart';
-import 'package:deliver_ease/views/splashscreen/splash_screen.dart';
+import 'package:deliver_ease/utils/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget {
         theme: Themes.lightModeTheme,
           darkTheme: Themes.darkModeTheme,
         debugShowCheckedModeBanner: false,
-        home:  const SplashScreen(),
+        initialRoute: AppRoutes.splashScreen,
+        onGenerateRoute: AppRoutes.generateRoute,
       ),
     );
   }

@@ -29,13 +29,13 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cupertino_icons: ^1.0.6
-  curved_navigation_bar: ^1.0.6
-  equatable: ^2.0.5
+  curved_navigation_bar: ^1.0.6 # Allows for a customizable curved navigation bar at the bottom of the screen.
+  equatable: ^2.0.5 # Used to simplify equality comparisons, especially useful in Bloc pattern and testing.
   flutter:
     sdk: flutter
-  flutter_bloc: ^8.1.6
-  http: ^1.2.2
-  timeago: ^3.7.0
+  flutter_bloc: ^8.1.6  # Enables the use of the Bloc pattern for state management.
+  http: ^1.2.2 # Used for making HTTP requests, often to fetch data from APIs.
+  timeago: ^3.7.0 # A library to format timestamps into relative time, such as "5 minutes ago."
 
 dev_dependencies:
   flutter_lints: ^3.0.0

@@ -29,7 +29,9 @@ class HomeScreen extends StatelessWidget {
                 children: [
                     Heading1(),
                     kHight20,
+                    //product grid view UI
                     GridViewToDoToday(),
+                    //dropdown text UI
                     MoreTextWidget(),
                     kHight10,
                 ],
@@ -42,6 +44,7 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   Heading2(),
                 kHight10,
+                //discount product ListView Horizontal UI
                 DiscountScrollableWidget(),
                 kHight10,
                
@@ -53,6 +56,7 @@ class HomeScreen extends StatelessWidget {
               children: [
                 Heading3(head: 'Trending', suffix: "See all"),
                 kHight10,
+                //Trending product Grid View Horizontal UI
                 TrendingGrid(),
                 kHight10
               ],
@@ -62,8 +66,10 @@ class HomeScreen extends StatelessWidget {
               children: [
                 Heading4(),
                 kHight10,
+                //CrazyDeals product List View Horizontal UI
                 CrazeDealListView(),
                 kHight20,
+                //user Refer container UI
                 ReferContainer(),
                 kHight20
               ],
@@ -73,8 +79,10 @@ class HomeScreen extends StatelessWidget {
               children: [
                 const Heading3(head: "Nearby stores", suffix: "See all"),
                 kHight10,
+                // near by stores ListView Separated UI
                 NearByWidget(),
                 kHight35,
+                // View All Stores button 
                 const StoresButton(),
                 kHight50,
                 kHight50
